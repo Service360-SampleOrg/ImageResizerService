@@ -1,0 +1,15 @@
+' ImageResizerService
+@startuml
+node ImageResizerService {
+}
+
+node CatalogService {
+}
+
+cloud ImageStorage {
+}
+
+CatalogService ..> ImageResizerService
+ImageResizerService --> ImageStorage
+
+@enduml
