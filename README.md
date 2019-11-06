@@ -26,3 +26,7 @@ There is no staging environment.
 - Serverless: deployment
 - AWS SQS: transport medium
 
+## Deployment
+
+    AWS_PROFILE=... ENV=prod VERSION=... make deploy
+    
