@@ -4,9 +4,9 @@ Application responsible for resizing product images to predefined
 sizes. Resized images are stored in CloudStorage and retrieved 
 directly from there.   
 
-Owner|Tier|Status|Landscape|Contexts
----|---|---|---|---
-CatalogTeam|Tier2|Prod|Web|Catalog
+Owner|Tier|Status|Contexts
+---|---|---|---
+CatalogTeam|Tier2|Prod|Web,Catalog
 
 ##### Environments
 
