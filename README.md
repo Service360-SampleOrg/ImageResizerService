@@ -1,12 +1,12 @@
 # ImageResizerService
 
-Application responsible for resizing product images to predefined
+Library responsible for resizing product images to predefined
 sizes. Resized images are stored in CloudStorage and retrieved 
 directly from there.   
 
-Owner|Tier|Status|Contexts
----|---|---|---
-CatalogTeam|Tier2|Prod|Web,Catalog
+Type|Owner|Tier|Status|Contexts
+---|---|---|---|---
+Library|CatalogTeam|Tier2|Prod|Web,Catalog
 
 ##### Environments
 
@@ -26,7 +26,7 @@ There is no staging environment.
 - Serverless: deployment
 - AWS SQS: transport medium
 
-## Deployment
+## Release 
 
-    AWS_PROFILE=... ENV=prod VERSION=... make deploy
+    Build and tag.
     
